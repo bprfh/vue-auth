@@ -24,7 +24,7 @@ Vue.axios.defaults.baseURL = 'https://api-demo.websanova.com/api/v1';
 import VueResource from 'vue-resource';
 Vue.use(VueResource);
 
-Vue.http.options.root = 'https://api-demo.websanova.com/api/v1';
+Vue.url.options.root = 'https://api-demo.websanova.com/api/v1';
 ```
 
 **NOTE:** Don't forget to set the `baseURL` or `root` to whatever API end point you are using.
